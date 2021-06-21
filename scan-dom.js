@@ -192,7 +192,7 @@ function scanSite(){
 		// Setup a message to display in the console once site scanning is done.
 		window.setTimeout(function(){
 			console.log("Scanning completed!");
-		},60000);
+		},((routes.length + 2)*15000));
 	};
 	
 	/* Run Code */
